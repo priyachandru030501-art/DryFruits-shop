@@ -1,0 +1,325 @@
+
+.dry-home {
+  font-family: Arial, sans-serif;
+  color: #283b2b;
+  overflow-x: hidden;
+  background: #fffdf7;
+}
+
+.dry-navbar {
+  background: #fffdf7;
+  padding: 18px 0;
+  box-shadow: 0 3px 15px #263b2b0d;
+}
+
+.dry-brand {
+  color: #244c32;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.dry-brand i {
+  color: #739c4b;
+}
+
+.dry-brand span {
+  color: #b57a42;
+}
+
+.dry-navbar .nav-link {
+  color: #3e4d3d;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+.dry-navbar .nav-link:hover,
+.dry-navbar .nav-link.active {
+  color: #739c4b;
+}
+
+.dry-cart-link {
+  color: white;
+  background: #315a39;
+  text-decoration: none;
+  padding: 11px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.dry-cart-link:hover {
+  background: #b57a42;
+  color: white;
+}
+
+.dry-hero {
+  padding: 80px 0;
+  background: linear-gradient(120deg, #f7f4e8, #fffdf7);
+}
+
+.dry-tagline,
+.dry-section-heading > p {
+  color: #73934f;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.dry-hero h1 {
+  font-size: clamp(38px, 5vw, 64px);
+  font-weight: 800;
+  line-height: 1.13;
+  color: #294b32;
+}
+
+.dry-hero h1 span {
+  color: #b57a42;
+}
+
+.dry-hero-text {
+  color: #6c7468;
+  line-height: 1.9;
+  max-width: 490px;
+  margin: 22px 0 28px;
+}
+
+.dry-primary-btn,
+.dry-outline-btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 14px 25px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.dry-primary-btn {
+  background: #315a39;
+  color: white;
+}
+
+.dry-primary-btn:hover {
+  background: #b57a42;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.dry-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  color: #596b54;
+  font-size: 13px;
+}
+
+.dry-trust i {
+  color: #739c4b;
+  margin-right: 5px;
+}
+
+.dry-hero-image {
+  position: relative;
+  padding: 12px;
+  background: white;
+  border-radius: 45% 45% 20px 20px;
+  box-shadow: 0 15px 45px #334a281c;
+}
+
+.dry-hero-image img {
+  width: 100%;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 45% 45% 15px 15px;
+}
+
+.dry-image-badge {
+  position: absolute;
+  bottom: 30px;
+  left: -15px;
+  padding: 15px 20px;
+  background: white;
+  color: #315a39;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px #00000012;
+  font-weight: 700;
+}
+
+.dry-image-badge i {
+  margin-right: 8px;
+  color: #739c4b;
+}
+
+.dry-products-section {
+  padding: 85px 0;
+}
+
+.dry-section-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.dry-section-heading h2 {
+  color: #294b32;
+  font-size: 38px;
+  font-weight: 800;
+  margin: 12px 0;
+}
+
+.dry-section-heading span {
+  color: #7a8074;
+}
+
+.dry-fruit-card {
+  background: white;
+  border: 1px solid #eeeade;
+  border-radius: 17px;
+  overflow: hidden;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.dry-fruit-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px #334a2815;
+}
+
+.dry-fruit-card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.dry-fruit-info {
+  padding: 22px;
+}
+
+.dry-fruit-info h5 {
+  color: #294b32;
+  font-weight: 700;
+}
+
+.dry-fruit-info p {
+  color: #7a8074;
+  margin: 12px 0;
+}
+
+.dry-fruit-info strong {
+  color: #b57a42;
+}
+
+.dry-fruit-info a {
+  color: #315a39;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.dry-outline-btn {
+  color: #315a39;
+  border: 1px solid #315a39;
+}
+
+.dry-outline-btn:hover {
+  background: #315a39;
+  color: white;
+}
+
+.dry-benefits {
+  padding: 60px 0;
+  background: #f2f3e8;
+  text-align: center;
+}
+
+.dry-benefits i {
+  color: #789b50;
+  font-size: 34px;
+}
+
+.dry-benefits h5 {
+  margin-top: 15px;
+  font-weight: 800;
+  color: #294b32;
+}
+
+.dry-benefits p {
+  color: #777e70;
+  margin-bottom: 0;
+}
+
+.dry-footer {
+  padding: 50px 0 20px;
+  background: #203e2b;
+  color: #f5f4e9;
+}
+
+.dry-footer h4 {
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.dry-footer h4 i {
+  color: #b8ce8d;
+}
+
+.dry-footer h6 {
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.dry-footer a {
+  display: block;
+  text-decoration: none;
+  color: #e0e7d9;
+  margin-bottom: 10px;
+}
+
+.dry-footer a:hover {
+  color: #d6b083;
+}
+
+.dry-footer p {
+  color: #d3dfd0;
+  line-height: 1.8;
+}
+
+.dry-copyright {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .dry-navbar .navbar-nav {
+    padding: 15px 0;
+  }
+
+  .dry-navbar .nav-link {
+    margin: 5px 0;
+  }
+
+  .dry-hero {
+    padding: 55px 0;
+  }
+
+  .dry-hero-image img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .dry-hero h1 {
+    font-size: 39px;
+  }
+
+  .dry-section-heading h2 {
+    font-size: 30px;
+  }
+
+  .dry-hero-image img {
+    height: 270px;
+  }
+
+  .dry-image-badge {
+    left: 5px;
+    bottom: 20px;
+  }
+}

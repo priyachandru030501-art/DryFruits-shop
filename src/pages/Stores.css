@@ -1,0 +1,180 @@
+
+.stores-page {
+  font-family: Arial, sans-serif;
+  background: #fffdf7;
+  color: #294b32;
+  overflow-x: hidden;
+}
+
+.stores-navbar {
+  padding: 17px 0;
+  background: #fffdf7;
+  box-shadow: 0 3px 15px #0000000b;
+}
+
+.stores-brand {
+  color: #315a39;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.stores-brand i {
+  color: #789b50;
+}
+
+.stores-navbar .nav-link {
+  color: #3e4d3d;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+.stores-navbar .nav-link:hover,
+.stores-navbar .nav-link.active {
+  color: #789b50;
+}
+
+.stores-cart {
+  padding: 11px 20px;
+  background: #315a39;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.stores-cart:hover {
+  background: #b57a42;
+  color: white;
+}
+
+.stores-hero {
+  text-align: center;
+  padding: 75px 15px;
+  background: #f2f3e8;
+}
+
+.stores-hero p {
+  color: #789b50;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.stores-hero h1 {
+  font-size: clamp(34px, 5vw, 48px);
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.stores-hero span,
+.stores-intro p {
+  color: #747d6d;
+}
+
+.stores-content {
+  padding-top: 70px;
+  padding-bottom: 85px;
+}
+
+.stores-intro {
+  margin-bottom: 40px;
+}
+
+.stores-intro h2 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.store-card {
+  height: 100%;
+  padding: 35px 25px;
+  border: 1px solid #eeeade;
+  border-radius: 18px;
+  background: white;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.store-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 35px #263b2b15;
+}
+
+.store-icon {
+  width: 75px;
+  height: 75px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 22px;
+  border-radius: 50%;
+  background: #edf1e4;
+  color: #527842;
+  font-size: 30px;
+}
+
+.store-card h4 {
+  font-weight: 800;
+}
+
+.store-card p {
+  color: #7a8074;
+  line-height: 1.8;
+}
+
+.store-card .store-city {
+  color: #b57a42;
+  font-weight: 700;
+}
+
+.store-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #315a39;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.store-link:hover {
+  color: #b57a42;
+}
+
+.stores-footer {
+  padding: 40px 0 20px;
+  background: #203e2b;
+  color: #f5f4e9;
+  text-align: center;
+}
+
+.stores-footer h4 {
+  font-weight: 800;
+}
+
+.stores-footer h4 i {
+  color: #b8ce8d;
+}
+
+.stores-footer p {
+  color: #d3dfd0;
+}
+
+.stores-footer-links a {
+  display: inline-block;
+  margin: 10px;
+  color: #e0e7d9;
+  text-decoration: none;
+}
+
+.stores-footer-links a:hover {
+  color: #d6b083;
+}
+
+@media (max-width: 991px) {
+  .stores-navbar .nav-link {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .stores-hero {
+    padding: 55px 15px;
+  }
+}
