@@ -179,32 +179,33 @@
   color: white;
 }
 
-.products-footer {
-  padding: 40px 0 20px;
+.about-footer {
   background: #203e2b;
   color: #f5f4e9;
+  text-align: center;
+  padding: 40px 0 20px;
 }
 
-.products-footer h4 {
+.about-footer h4 {
   font-weight: 800;
 }
 
-.products-footer h4 i {
+.about-footer h4 i {
   color: #b8ce8d;
 }
 
-.products-footer p {
+.about-footer p {
   color: #d3dfd0;
 }
 
-.products-footer a {
+.about-footer a {
   display: inline-block;
   margin: 10px;
   color: #e0e7d9;
   text-decoration: none;
 }
 
-.products-footer a:hover {
+.about-footer a:hover {
   color: #d6b083;
 }
 

@@ -188,29 +188,17 @@ function Home() {
         </div>
       </section>
 
-      <footer className="dry-footer">
+      <footer className="about-footer">
         <div className="container">
-          <div className="row g-4">
-            <div className="col-md-5">
-              <h4><i className="bi bi-leaf-fill"></i> NutriBasket</h4>
-              <p>Enjoy nature's goodness, one handful at a time.</p>
-            </div>
-            <div className="col-md-3">
-              <h6>Quick Links</h6>
-              <Link to="/">Home</Link>
-              <Link to="/products">Products</Link>
-              <Link to="/stores">Stores</Link>
-            </div>
-            <div className="col-md-4">
-              <h6>Contact</h6>
-              <p><i className="bi bi-envelope"></i> hello@nutribasket.example</p>
-              <p><i className="bi bi-geo-alt"></i> Visit our store locations</p>
-            </div>
+          <h4><i className="bi bi-leaf-fill"></i> NutriBasket</h4>
+          <p>Small handfuls. Everyday goodness.</p>
+          <div>
+            <Link to="/">Home</Link>
+            <Link to="/products">Products</Link>
+            <Link to="/contact">Contact</Link>
           </div>
           <hr />
-          <p className="dry-copyright">
-            © {new Date().getFullYear()} NutriBasket. All rights reserved.
-          </p>
+          <p>© {new Date().getFullYear()} NutriBasket. All rights reserved.</p>
         </div>
       </footer>
     </div>

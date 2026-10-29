@@ -80,21 +80,17 @@ function Products() {
         </div>
       </main>
 
-      <footer className="products-footer">
+      <footer className="about-footer">
         <div className="container">
-          <div className="row g-3">
-            <div className="col-md-6">
-              <h4><i className="bi bi-leaf-fill"></i> NutriBasket</h4>
-              <p>Nature's goodness for your everyday life.</p>
-            </div>
-            <div className="col-md-6 text-md-end">
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/contact">Contact</Link>
-            </div>
+          <h4><i className="bi bi-leaf-fill"></i> NutriBasket</h4>
+          <p>Small handfuls. Everyday goodness.</p>
+          <div>
+            <Link to="/">Home</Link>
+            <Link to="/products">Products</Link>
+            <Link to="/contact">Contact</Link>
           </div>
           <hr />
-          <p className="text-center mb-0">© {new Date().getFullYear()} NutriBasket. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} NutriBasket. All rights reserved.</p>
         </div>
       </footer>
     </div>
